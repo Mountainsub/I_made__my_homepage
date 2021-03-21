@@ -1,0 +1,80 @@
+
+<!doctype html>
+<html class="no-js" lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>クラスとインスタンス</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+ <link rel="stylesheet" href="style.css">
+
+  <!-- Place favicon.ico in the root directory -->
+
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+<body>
+<li><a href="../Yudai_homepage.html">もどる</a></li>
+    <div class="accordion" id = "js-faq">
+    <p class = "accordion-trigger">
+        花火
+    </p>
+    <div class = "accordion-contents">
+    <img src="print1.jpg" alt="画像1">
+    </div>
+    <p class = "accordion-trigger">
+        テトリス
+    </p>
+    <div class = "accordion-contents">
+    <img src="print2.jpg" alt="画像2">
+    </div>
+    <br>
+    <div class="accordion" id = "js-accordion">
+    <p  class = "accordion-trigger">
+        Q1.Cのレベルはどの程度ですか
+    </p>
+     <div class="accordion" id = "js-accordion">
+     最初に学習しました。じゃんけんのソースコードを書いたり、階乗を求めるプログラムを書くことができます.
+     </div>
+    <p  class = "accordion-trigger">
+        Q2.javascriptのレベルはどの程度ですか
+    </p>
+     <div class="accordion" id = "js-accordion">
+     色々です.
+        1. テトリスのプログラム
+        生のhtmlで「setInterval」によりブロック生成および下落、衝突検知のプログラムをupdate()、draw()関数により作る
+        キーボードのコマンドに対しイベント関数で回転したり移動したりする
+        そして, 一列揃った際に消えるプログラムとゲームオーバー表示するプログラムを作った
+<br>
+        2. 花火のプログラム
+        生のhtmlでスペースキーを押すと「setInterval」により放物運動と爆発する運動を描画する.(type==0とtype==1でわけてy座標が0になったときにtype==0からtype==1に移行する)
+        ランダム変数, sin ,cosを用いて光の玉が広がるようにコードを記し200フレームほど表示した後消える.
+        これだけだと味気ないので本体の花火のupdate()、draw()関数が実行されると残像メソッドが実行されるようにコードを組み, globalAlphaを用いて表示フレームの数に応じて段々と色が薄くなるようにコードを組むこうすることで実際の花火に近いアプリケーションができる.
+  <br>      
+        3.Webページ上, 一般的なタブを作った
+        <br>
+        4.クイズゲーム
+        クリックイベントを用いて質問解答と正解と不正解を表示する. 
+        <br>
+        5.ブロック崩し
+        横に動くパドルとブロックを生成する.
+        updateとdraw関数を用いて一定の速度を持つボールとはねかえりシステムを用意する
+        衝突検知関数を用いてブロックを削る
+     </div>
+     <p  class = "accordion-trigger">
+        Q2.javascriptのレベルはどの程度ですか
+    </p>
+     <div class="accordion" id = "js-accordion">
+     最初に学習しました。じゃんけんのソースコードを書いたり、階乗を求めるプログラムを書くことができます.
+     </div>
+    <p  class = "accordion-trigger">
+        Q2.javascriptのレベルはどの程度ですか
+    </p>
+    <script src = "accordion.js"></script>
+</body>
+</html>

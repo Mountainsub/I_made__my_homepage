@@ -1,0 +1,44 @@
+body{
+       /* 背景色指定 */
+background: linear-gradient(50deg, azure, white);
+  
+/*  上に余白を設定   */
+margin-top: 50px;
+ 
+/*  下に余白を設定   */
+margin-bottom: 100px;
+ 
+/*  左に余白を設定   */
+margin-left: 100px;
+ 
+/*  右に余白を設定   */
+margin-right: 100px;
+ padding: 10px;
+ }
+
+    div.imgt {
+       position:absolute;
+       top:1em;
+       left:20em;
+       padding: 0px;
+    }
+    p.title {
+        font-family: 'Arial Black','ヒラギノ角ゴシック','Hiragino Sans','メイリオ', Meiryo,'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+        color: #eaf4fc;
+        font-size:4em;
+        line-height:80%;
+        margin: 0px;
+    }
+
+    div.menu {
+        position:absolute;
+        top:4em;
+        left:3em;
+        border:1px solid;
+        padding:10px;
+        font-size: 2em;
+        line-height:120%;
+        font-family: 'Arial Black','ヒラギノ角ゴシック','Hiragino Sans','メイリオ', Meiryo,'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+        color:#cccccc;
+        //background-color:black;
+    }
